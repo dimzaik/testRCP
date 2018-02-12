@@ -1,0 +1,111 @@
+[
+  {
+    "description": "  As a grocery shopper\n  I want to add an item to my grocery list\n  So that I can remember to buy that item at the grocery store",
+    "elements": [
+      {
+        "id": "shopper-can-add-an-item-to-their-grocery-list;item-added-to-grocery-list",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Item added to grocery list",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have an empty grocery list",
+            "result": {
+              "status": "passed",
+              "duration": 288783
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Dimzaik\\Desktop\\tutorial-from-scripts-to-serenity-master\\features\\step_definitions\\todo_user.steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add an item to the list",
+            "result": {
+              "status": "passed",
+              "duration": 116633
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Dimzaik\\Desktop\\tutorial-from-scripts-to-serenity-master\\features\\step_definitions\\todo_user.steps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The grocery list contains a single item",
+            "result": {
+              "status": "passed",
+              "duration": 140426
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Dimzaik\\Desktop\\tutorial-from-scripts-to-serenity-master\\features\\step_definitions\\todo_user.steps.js:13"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "shopper-can-add-an-item-to-their-grocery-list;item-accessible-from-grocery-list",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Item accessible from grocery list",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have an empty grocery list",
+            "result": {
+              "status": "passed",
+              "duration": 52718
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Dimzaik\\Desktop\\tutorial-from-scripts-to-serenity-master\\features\\step_definitions\\todo_user.steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add an item to the list",
+            "result": {
+              "status": "passed",
+              "duration": 43387
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Dimzaik\\Desktop\\tutorial-from-scripts-to-serenity-master\\features\\step_definitions\\todo_user.steps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I can access that item from the grocery list",
+            "result": {
+              "status": "passed",
+              "duration": 85376
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Dimzaik\\Desktop\\tutorial-from-scripts-to-serenity-master\\features\\step_definitions\\todo_user.steps.js:17"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "shopper-can-add-an-item-to-their-grocery-list",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Shopper can add an item to their Grocery List",
+    "tags": [],
+    "uri": "C:\\Users\\Dimzaik\\Desktop\\tutorial-from-scripts-to-serenity-master\\features\\add_new_items.feature"
+  }
+]

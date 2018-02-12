@@ -1,0 +1,73 @@
+[
+  {
+    "description": "  In order to avoid having to remember things that need doing\n  As a forgetful person\n  I want to be able to record what I need to do in a place where I won't forget about them",
+    "elements": [
+      {
+        "id": "add-new-items-to-the-todo-list;adding-an-item-to-a-list-with-other-items",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Adding an item to a list with other items",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that James has a todo list containing Buy some cookies, Walk the dog",
+            "result": {
+              "status": "passed",
+              "duration": 333570
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Dimzaik\\Desktop\\tutorial-from-scripts-to-serenity-master\\features\\step_definitions\\todo_user.steps.ts:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he adds Buy some cereal to his list",
+            "result": {
+              "status": "passed",
+              "duration": 131095
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Dimzaik\\Desktop\\tutorial-from-scripts-to-serenity-master\\features\\step_definitions\\todo_user.steps.ts:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "his todo list should contain Buy some cookies, Walk the dog, Buy some cereal",
+            "result": {
+              "status": "passed",
+              "duration": 136227
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Dimzaik\\Desktop\\tutorial-from-scripts-to-serenity-master\\features\\step_definitions\\todo_user.steps.ts:14"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-new-items-to-the-todo-list",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Add new items to the todo list",
+    "tags": [],
+    "uri": "C:\\Users\\Dimzaik\\Desktop\\tutorial-from-scripts-to-serenity-master\\features\\add_new_items.feature",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "64.0.3282.140"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
